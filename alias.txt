@@ -1,0 +1,30 @@
+# SYSTEM
+alias ls='ls -G'
+alias ll='ls -Gl'
+alias lls='ls -Gal'
+alias lla='ls -all'
+alias rm='rm -i'
+alias la='ls -A'
+alias l='ls -CF'
+alias lsa='ls -lasthc'
+alias lsd='ls -adG */'
+
+# GIT
+alias gs='git status'
+alias gl='git log -n5'
+alias gf='git fetch'
+alias gfa='git fetch --all'
+alias gb='git branch ' $1
+alias gco='git checkout ' $1
+alias ga='git add -A'
+alias gc='git commit -m ' $1
+alias gm='git merge ' $1
+alias gpl='git pull ' $1 $2
+alias gplo='git pull origin ' $1
+alias gplom='git pull origin master'
+alias gplod='git pull origin develop'
+alias gp='git push ' $1 $2
+alias gpo='git push origin ' $1
+alias gpom='git push origin master'
+alias gpod='git push origin develop'
+alias gd='git diff'
