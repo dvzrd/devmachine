@@ -6,4 +6,14 @@ Purpose: To setup your dev environment quickly on a new machine.
 
 On mac, run terminal command `nano ~/.zshrc` to add your alias.
 
+---
+
 WORK IN PROGRESS
+
+## Mac setup steps
+
+- xcode
+- homebrew
+  - nvm with node
+  - yarn
+- vscode
